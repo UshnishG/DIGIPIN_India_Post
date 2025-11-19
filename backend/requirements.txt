@@ -3,7 +3,8 @@ uvicorn
 sqlalchemy
 pydantic
 passlib
-bcrypt
+bcrypt==4.3.0
 python-multipart
 python-jose
+
 httpx
