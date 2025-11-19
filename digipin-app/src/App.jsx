@@ -23,7 +23,7 @@ const DigipinPlatform = () => {
   const [myAddresses, setMyAddresses] = useState([]);
   const [libReady, setLibReady] = useState(false); 
   
-  const BASE_URL = "http://localhost:8000";
+  const BASE_URL = "https://digipin-india-post.onrender.com";
 
   useEffect(() => {
     if (!window.L) {
